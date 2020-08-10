@@ -7,11 +7,12 @@ nsfeed = {'nsfeed': 'http://www.w3.org/2005/Atom'}
 with open('README.md', 'w') as f:
     f.write(r'''
 ```
-_   _      _
-| \ | | ___| |_ ___ __ _ _ __
-|  \| |/ _ \ __/ __/ _` | '_ \
-| |\  |  __/ || (_| (_| | | | |
-|_| \_|\___|\__\___\__,_|_| |_|
+ _   _      _                                                                                      _
+| \ | | ___| |_ ___ __ _ _ __     ___  _ __    _ __  _ __ ___   __ _ _ __ __ _ _ __ ___  _ __ ___ (_)_ __   __ _
+|  \| |/ _ \ __/ __/ _` | '_ \   / _ \| '_ \  | '_ \| '__/ _ \ / _` | '__/ _` | '_ ` _ \| '_ ` _ \| | '_ \ / _` |
+| |\  |  __/ || (_| (_| | | | | | (_) | | | | | |_) | | | (_) | (_| | | | (_| | | | | | | | | | | | | | | | (_| |
+|_| \_|\___|\__\___\__,_|_| |_|  \___/|_| |_| | .__/|_|  \___/ \__, |_|  \__,_|_| |_| |_|_| |_| |_|_|_| |_|\__, |
+                                              |_|              |___/                                       |___/
 ```
 
 ## Latest blog posts
@@ -22,6 +23,10 @@ _   _      _
         published = entry.find('nsfeed:published', nsfeed).text[:10]
         f.write('- {} [{}]({})\n'.format(published, text, url))
 
-    f.write('\n[➡️ More blog posts](https://netcan.github.io/archives/)\n\n---\n')
-    f.write('![Stats](https://github-readme-stats.vercel.app/api?username=netcan)\n')
-    f.write('![Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=netcan&hide=ipynb,html&layout=compact)\n')
+    f.write('''
+[>>> More blog posts](https://netcan.github.io/archives/)
+
+## Statistics
+![Stats](https://github-readme-stats.vercel.app/api?username=netcan)
+![Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=netcan&hide=ipynb,html&layout=compact)
+''')
