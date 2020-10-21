@@ -8,6 +8,9 @@
                                               |_|              |___/                                       |___/
 ```
 
+## Latest talks
+- [Metaprogramming](http://netcan.github.io/presentation/metaprogramming)
+
 ## Latest blog posts
 - 2020-09-30 [详解函数式编程之 Monad](https://netcan.github.io/2020/09/30/%E8%AF%A6%E8%A7%A3%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B%E4%B9%8BMonad/)
 - 2020-09-23 [C++ 元编程之求解全局最短路径](https://netcan.github.io/2020/09/23/C-%E5%85%83%E7%BC%96%E7%A8%8B%E4%B9%8B%E6%B1%82%E8%A7%A3%E5%85%A8%E5%B1%80%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84/)

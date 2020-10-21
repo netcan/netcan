@@ -1,3 +1,4 @@
+import re
 import requests
 import xml.etree.ElementTree as ET
 
@@ -14,7 +15,16 @@ with open('README.md', 'w') as f:
 |_| \_|\___|\__\___\__,_|_| |_|  \___/|_| |_| | .__/|_|  \___/ \__, |_|  \__,_|_| |_| |_|_| |_| |_|_|_| |_|\__, |
                                               |_|              |___/                                       |___/
 ```
+''')
 
+    f.write(r'''
+## Latest talks
+''')
+    talks = requests.get('https://raw.githubusercontent.com/netcan/presentation/master/README.md').text
+    for (topic, url) in re.findall('- (.*): (.*)', talks)[:5]:
+        f.write('- [{}]({})\n'.format(topic, url))
+
+    f.write(r'''
 ## Latest blog posts
 ''')
     for entry in root.findall('nsfeed:entry', nsfeed)[:5]:
