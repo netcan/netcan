@@ -9,7 +9,8 @@
 ```
 
 ## Latest talks
-- [Metaprogramming](http://netcan.github.io/presentation/metaprogramming)
+- [Modern C++ Template Metaprogramming](http://netcan.github.io/presentation/metaprogramming)
+- [Constexpr from 11 to 20](https://netcan.github.io/presentation/constexpr_from_11_20)
 
 ## Latest blog posts
 - 2020-11-06 [C++/Rust 元编程之 BrainFuck 编译器（constexpr/ 过程宏解法）](https://netcan.github.io/2020/11/06/C-Rust%E5%85%83%E7%BC%96%E7%A8%8B%E4%B9%8BBrainFuck%E7%BC%96%E8%AF%91%E5%99%A8%EF%BC%88constexpr-%E8%BF%87%E7%A8%8B%E5%AE%8F%E8%A7%A3%E6%B3%95%EF%BC%89/)
