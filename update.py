@@ -14,6 +14,10 @@ with open('README.md', 'w') as f:
 | |\  |  __/ || (_| (_| | | | | | (_) | | | | | |_) | | | (_) | (_| | | | (_| | | | | | | | | | | | | | | | (_| |
 |_| \_|\___|\__\___\__,_|_| |_|  \___/|_| |_| | .__/|_|  \___/ \__, |_|  \__,_|_| |_| |_|_| |_| |_|_|_| |_|\__, |
                                               |_|              |___/                                       |___/
+* 1996, Summer, Senior Software Engineer
+* Skills: C/C++/Rust, Haskell/Scheme, Bash/Python/Javascript/PHP
+* Interests: CS, OO/FP, Design/Coding/Writing
+* 公众号: 高级开发者
 ```
 ''')
 
