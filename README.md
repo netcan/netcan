@@ -15,6 +15,7 @@
 ## Latest talks
 - [Modern C++ Template Metaprogramming](http://netcan.github.io/presentation/metaprogramming)
 - [Constexpr from 11 to 20](https://netcan.github.io/presentation/constexpr_from_11_20)
+- [Embedded Domain-Specific Languages in Industry](https://netcan.github.io/presentation/edsl_in_industry)
 
 ## Latest blog posts
 - 2021-01-08 [再见 2020，2021 你好](https://netcan.github.io/2021/01/08/%E5%86%8D%E8%A7%812020%EF%BC%8C2021%E4%BD%A0%E5%A5%BD/)
