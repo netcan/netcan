@@ -17,7 +17,6 @@ with open('README.md', 'w') as f:
 * 1996, Summer, Senior Software Engineer
 * Skills: C/C++/Rust, Haskell/Scheme, Bash/Python/Javascript/PHP
 * Interests: CS, OO/FP, Design/Coding/Writing
-* 公众号: 高级开发者
 ```
 ''')
 
